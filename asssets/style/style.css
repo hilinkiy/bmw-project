@@ -1,0 +1,242 @@
+@import 'reset.css';
+@import 'fonts.css';
+
+body {
+    background: #52616B;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C9D6DF;
+    padding-bottom: 16px;
+}
+
+.header {
+    background: url(../img/i4\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 17px 0;
+    min-height: 647px;
+    background-position: center;
+}
+
+.nav__list_link {
+    color: #C9D6DF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav__list_add {
+    color: #C9D6DF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 64px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav__list2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav__list_link:hover {
+    color: rgb(0, 89, 255);
+    transition: .5s;
+}
+
+.nav__list_add:hover {
+    color: rgb(0, 89, 255);
+    transition: .5s;
+    background: #C9D6DF;
+}
+
+.card__title {
+    color: #C9D6DF;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card__descr {
+    color: #C9D6DF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.main__card {
+    background: url(../img/1st.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    max-width: 1195px;
+    padding: 0;
+}
+
+.main__card:nth-of-type(2) {
+    background: url(../img/2nd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 341px;
+    width: 100%;
+    max-width: 590px;
+}
+
+.main{
+    padding-top: 100px;
+}
+
+.main__card:nth-of-type(3) {
+    background: url(../img/3rd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 341px;
+    width: 100%;
+    max-width: 590px;
+    background-position: flex-end;
+}
+
+.dream__title {
+    color: #F0F5F9;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dream {
+    background: url(../img/bmw\ of\ dream\ 1.png);
+    background-position-x: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 648px;
+    margin-bottom: 200px;
+}
+
+.dream__link {
+    color: #C9D6DF;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 15px 50px;
+    border-radius: 8px;
+    background: #1E2022;
+}
+
+.dream__content {
+    display: flex;
+    flex-direction: column;
+    gap: 500px;
+    align-items: center;
+}
+
+.app__descr {
+    color: #C9D6DF;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.app {
+    background: url(../img/bmw-my-bmw-app-lp-cp-xxl\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 629px;
+    padding: 30px;
+}
+
+.app__content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer__col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer {
+    padding-bottom: 100px;
+    background: #1E2022;
+}
+
+.col__title {
+    color: #F0F5F9;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.col__descr {
+    color: #C9D6DF;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img__link {
+    display: flex;
+    gap: 10px;
+}
+
+.nav__list2 {
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1254px;
+}
